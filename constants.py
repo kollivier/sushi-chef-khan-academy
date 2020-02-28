@@ -23,7 +23,6 @@ EXERCISE_ATTRIBUTES = [
     'prerequisites',
     'slug',
     'usesAssessmentItems',
-    'prerequisites',
     'relatedContent',
     'translatedTitle',
     'translatedDescription',
@@ -66,7 +65,8 @@ PROJECTION_KEYS = json.dumps(OrderedDict([
 
 SUPPORTED_LANGS = ['en', 'es', 'fr', 'hi', 'pt-pt', 'pt-BR', 'hy', 'ko', 'und', 'bn', 'gu', 'id']
 
-UNSUPPORTED_LANGS = ['ru', 'zu', 'my', 'fv', 'ur']
+# UNSUPPORTED_LANGS = ['ru', 'zu', 'my', 'fv', 'ur']
+# The KA channels for these languages are loaded from YouTube playlists
 
 UNSUBTITLED_LANGS = ['es', 'fr', 'hi', 'pt-pt', 'pt-BR', 'hy', 'bn', 'id']
 
